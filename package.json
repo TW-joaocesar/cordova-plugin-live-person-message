@@ -1,7 +1,7 @@
 {
-  "name": "MessagingSDKPlugin",
-  "version": "2.8.4.5.1297-xcode91",
-  "description": "Cordova LP MessagingSDKPlugin",
+  "name": "cordova-plugin-live-person-message",
+  "version": "1.0",
+  "description": "Cordova LivePerson Messaging Plugin",
   "cordova": {
     "id": "com.liveperson.messagingSDK",
     "platforms": [
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnbeadle/CordovaMessagingSDKSample.git"
+    "url": "git+https://github.com/TruewindIT/cordova-plugin-live-person-message.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -21,13 +21,13 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=3.4.0"
+      "version": ">=3.5.0"
     }
   ],
-  "author": "jbeadle@liveperson.com",
+  "author": "goncalo.ferraria@truewindglobal.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnbeadle/CordovaMessagingSDKSample/issues"
+    "url": "https://github.com/TruewindIT/cordova-plugin-live-person-message/issues"
   },
-  "homepage": "https://github.com/johnbeadle/CordovaMessagingSDKSample#readme"
+  "homepage": "https://github.com/TruewindIT/cordova-plugin-live-person-message#readme"
 }
