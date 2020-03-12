@@ -31,7 +31,7 @@
 		</config-file>
 
         <!-- LivePerson Android SDK -->
-        <framework src="com.liveperson.android:lp_messaging_sdk:4.3.2" />
+        <framework src="com.liveperson.android:lp_messaging_sdk:5.5.1" />
 
         <!--  Plugin Code -->
         <source-file src="src/android/LPMessagingSDK.java" target-dir="src/com/liveperson/plugin/" />
