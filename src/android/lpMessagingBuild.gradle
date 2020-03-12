@@ -1,13 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    repositories {
+
+	repositories {
         flatDir {
-             dirs 'lp_messaging_sdk', '../<library_dir>/lp_messaging_sdk'
+             dirs 'lp_messaging_sdk'
         }
     }
+
 }
 
 dependencies {
-    compile project(':lp_messaging_sdk')
+    compile 'com.liveperson.messaging'
 }
