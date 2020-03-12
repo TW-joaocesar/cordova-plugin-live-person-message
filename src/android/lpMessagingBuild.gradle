@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     repositories {
         flatDir {
-            dirs project(':lp_messaging_sdk').file('aars')
+             dirs 'lp_messaging_sdk', '../<library_dir>/lp_messaging_sdk'
         }
     }
 }
