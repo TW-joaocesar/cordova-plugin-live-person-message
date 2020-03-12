@@ -1,6 +1,5 @@
 package com.liveperson.plugin;
 
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;

@@ -24,7 +24,7 @@
 				<param name="android-package" value="com.liveperson.plugin.LPMessagingSDK"/>
 			</feature>
 			
-			<preference name="android-minSdkVersion" value="15" />
+			<preference name="android-minSdkVersion" value="19" />
 		</config-file>
 
 		<!--  AndroidManifest Changes - Permissions-->
