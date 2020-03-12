@@ -11,5 +11,5 @@ android {
 }
 
 dependencies {
-    compile(name: 'lp_messaging_sdk', ext: 'aar')
+    implementation(name: 'lp_messaging_sdk', ext: 'aar')
 }
