@@ -22,6 +22,8 @@
 			<feature name="LPMessagingSDK" >
 				<param name="android-package" value="com.liveperson.plugin.LPMessagingSDK"/>
 			</feature>
+			
+			<preference name="android-minSdkVersion" value="15" />
 		</config-file>
 
 		<!--  AndroidManifest Changes - Permissions-->
@@ -31,7 +33,7 @@
 		</config-file>
 
         <!-- LivePerson Android SDK -->
-        <framework src="com.liveperson.android:lp_messaging_sdk:5.5.1" />
+        <framework src="com.liveperson.android:lp_messaging_sdk:4.3.+" />
 
         <!--  Plugin Code -->
         <source-file src="src/android/LPMessagingSDK.java" target-dir="src/com/liveperson/plugin/" />
