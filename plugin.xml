@@ -31,6 +31,7 @@
 		</config-file>
 
         <!-- LivePerson Android SDK -->
+		<framework src="src/android/lp_messaging_sdk" custom="true" />
         <framework src="src/android/lpMessagingBuild.gradle" custom="true" type="gradleReference"/>
 
         <!--  Plugin Code -->
