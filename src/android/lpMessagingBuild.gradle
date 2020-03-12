@@ -1,14 +1,1 @@
 apply plugin: 'com.android.application'
-
-allprojects {
-	repositories {
-		jcenter()
-		flatDir {
-			dirs 'libs'
-		}
-	}
-}
-
-dependencies {
-    compile(name:'lp_messaging_sdk', ext:'aar')
-}
