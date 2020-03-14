@@ -6,12 +6,12 @@
 //
 //
 
-import Foundation
-import LPMessagingSDK
-import LPInfra
-import LPAMS
+//import Foundation
+//import LPMessagingSDK
+//import LPInfra
+//import LPAMS
 
-extension String {
+/*extension String {
     
     /// Create `Data` from hexadecimal string representation
     ///
@@ -34,11 +34,11 @@ extension String {
         return data
     }
     
-}
+}*/
 
-@objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin, LPMessagingSDKdelegate {
+@objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin/*, LPMessagingSDKdelegate*/ {
     
-    var conversationQuery: ConversationParamProtocol?
+    /*var conversationQuery: ConversationParamProtocol?
 
     // adding delegates and callbacks for Cordova to notify javascript wrapper when functions complete
     var callBackCommandDelegate: CDVCommandDelegate?
@@ -51,20 +51,17 @@ extension String {
     var globalCallbackCommandDelegate: CDVCommandDelegate?
     var globalCallbackCommand: CDVInvokedUrlCommand?
     
-    var lpAccountNumber:String?
+    var lpAccountNumber:String?*/
     
     override init() {
         super.init()
     }
-    
+
     override func pluginInitialize() {
         print("@@@ iOS pluginInitialize")
     }
     
-
-    
-    
-    func lp_sdk_init(_ command: CDVInvokedUrlCommand) {
+    /*func lp_sdk_init(_ command: CDVInvokedUrlCommand) {
         guard let lpAccountNumber = command.arguments.first as? String else {
             print("Can't init without brandID")
             return
@@ -417,14 +414,13 @@ extension String {
 
         }
         
-        
-        
+       
     }
     
     // MARK: MessagingSDK API
     /**
      Show conversation screen and use this ViewController as a container
-     */
+    
     func showConversation(_ brandID: String, authenticationCode:String? = nil) {
         
         self.conversationQuery = LPMessagingSDK.instance.getConversationBrandQuery(brandID)
@@ -449,7 +445,7 @@ extension String {
      TODO: update method to support config and branding changes via a JSON object sent through via the cordova wrapper to change the settings here.
 
      TODO: Add support for other config options as per SDK documentation
-     */
+     
     func setSDKConfigurations(_ config:[String:AnyObject]) {
         let configurations = LPConfig.defaultConfiguration
         
@@ -664,6 +660,6 @@ extension String {
         self.globalCallbackCommandDelegate?.send(pluginResult, callbackId: self.globalCallbackCommand?.callbackId)
 
         
-    }
+    }*/
     
 }
