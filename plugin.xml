@@ -47,7 +47,7 @@
 	<platform name="ios">
 		
 		<config-file target="config.xml" parent="/*">
-			<feature name="LPMessagingSDK" >
+			<feature name="ImageEditorPlugin" >
 				<param name="ios-package" value="LPMessagingSDKPlugin"/>
 			</feature>
 		</config-file>
