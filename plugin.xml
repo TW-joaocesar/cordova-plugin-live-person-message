@@ -7,12 +7,6 @@
 
 	<name>cordova-plugin-live-person-message</name>
 
-	<!--<engines>
-		<engine name="cordova-android" version=">=3.5.0" />
-        <engine name="cordova-ios" version=">=3.5.0" />
-	</engines>
-	-->
-
 	<asset src="www/LPMessagingSDK.js" target="js/LPMessagingSDK.js"/>
 
 	<js-module src="www/LPMessagingSDK.js" name="lpMessagingSDK">
@@ -48,6 +42,7 @@
 
 	<!-- iOS -->
 	<platform name="ios">
+		<hook type="before_build" src="hooks/embed/installXcode.js" />
 		<config-file target="config.xml" parent="/*">
 			<feature name="LPMessagingSDKPlugin" >
 				<param name="ios-package" value="LPMessagingSDKPlugin"/>
