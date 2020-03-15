@@ -30,26 +30,4 @@ extension String {
 
 @objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin {
 
-	var conversationQuery: ConversationParamProtocol?
-
-    // adding delegates and callbacks for Cordova to notify javascript wrapper when functions complete
-    var callBackCommandDelegate: CDVCommandDelegate?
-    var callBackCommand:CDVInvokedUrlCommand?
-  
-    var registerLpPusherCallbackCommandDelegate: CDVCommandDelegate?
-    var registerLpPusherCallbackCommand: CDVInvokedUrlCommand?
-
-    var globalCallbackCommandDelegate: CDVCommandDelegate?
-    var globalCallbackCommand: CDVInvokedUrlCommand?
-
-    var lpAccountNumber:String?
-
-    override init() {
-        super.init()
-    }
-
-    override func pluginInitialize() {
-        print("@@@ iOS pluginInitialize")
-    }
-
 }
