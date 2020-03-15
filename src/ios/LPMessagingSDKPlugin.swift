@@ -1,5 +1,5 @@
 import Foundation
-//import LPMessagingSDK
+import LPMessagingSDK
 //import LPInfra
 //import LPAMS
 
