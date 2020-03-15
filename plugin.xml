@@ -4,10 +4,11 @@
 
 	<name>cordova-plugin-live-person-message</name>
 
-	<engines>
+	<!--<engines>
 		<engine name="cordova-android" version=">=3.5.0" />
         <engine name="cordova-ios" version=">=3.5.0" />
 	</engines>
+	-->
 
 	<asset src="www/LPMessagingSDK.js" target="js/LPMessagingSDK.js"/>
 
