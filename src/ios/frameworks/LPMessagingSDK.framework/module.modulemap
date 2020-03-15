@@ -11,6 +11,8 @@ framework module LPMessagingSDK {
     export *
     module * {export *}
     
-    header "LPTTTAttributedLabel.h"    
+    header "LPTTTAttributedLabel.h"
+    header "UIRefreshControl+UITableView.h"
+    
     
 }
