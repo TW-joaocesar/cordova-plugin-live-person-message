@@ -29,5 +29,5 @@ extension String {
 }
 
 @objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin {
-		
+
 }
