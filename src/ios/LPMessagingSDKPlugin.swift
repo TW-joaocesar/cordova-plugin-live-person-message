@@ -4,8 +4,17 @@ import Foundation
 //import LPAMS
 
 @objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin {
-	
-	
+
+	var lpAccountNumber:String?
+
+    override init() {
+		super.init()
+    }
+    
+    override func pluginInitialize() {
+        print("@@@ iOS pluginInitialize")
+    }
+
 }
 
 extension String {
