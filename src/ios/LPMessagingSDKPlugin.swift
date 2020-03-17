@@ -5,6 +5,16 @@ import Foundation
 
 @objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin {
 
+	// adding delegates and callbacks for Cordova to notify javascript wrapper when functions complete
+    var callBackCommandDelegate: CDVCommandDelegate?
+    var callBackCommand:CDVInvokedUrlCommand?
+
+    var registerLpPusherCallbackCommandDelegate: CDVCommandDelegate?
+    var registerLpPusherCallbackCommand: CDVInvokedUrlCommand?
+
+    var globalCallbackCommandDelegate: CDVCommandDelegate?
+    var globalCallbackCommand: CDVInvokedUrlCommand?
+
 	var lpAccountNumber:String?
 
     override init() {
