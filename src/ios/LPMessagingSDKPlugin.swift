@@ -36,7 +36,7 @@ import Foundation
     
 }*/
 
-@objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin, LPMessagingSDKdelegate {
+@objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin { /*, LPMessagingSDKdelegate {
     
     /*var conversationQuery: ConversationParamProtocol?
 
