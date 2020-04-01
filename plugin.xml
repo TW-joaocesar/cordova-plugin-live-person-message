@@ -42,7 +42,6 @@
 
 	<!-- iOS -->
 	<platform name="ios">
-		<!--<hook type="before_build" src="hooks/embed/installXcode.js" />-->
 		<config-file target="config.xml" parent="/*">
 			<feature name="LPMessagingSDKPlugin" >
 				<param name="ios-package" value="LPMessagingSDKPlugin"/>
