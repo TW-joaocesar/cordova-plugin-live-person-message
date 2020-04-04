@@ -2,10 +2,10 @@
 <plugin 
 	xmlns="http://apache.org/cordova/ns/plugins/1.0" 
 	xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.liveperson.messagingSDK"
-	version="0.0.1">
+    id="cordova-plugin-live-person-message"
+	version="1.0.0">
 
-	<name>cordova-plugin-live-person-message</name>
+	<name>Live Person Messaging</name>
 
 	<asset src="www/LPMessagingSDK.js" target="js/LPMessagingSDK.js"/>
 
