@@ -10,38 +10,6 @@ Running with the following versions of the LivePerson Messaging SDK
 + [iOS SDK v4.1.0](https://github.com/LP-Messaging/iOS-Messaging-SDK/releases/tag/4.1.0)
 + [Android SDK v4.3.1](https://github.com/LP-Messaging/Android-Messaging-SDK/releases/tag/v4.3.1)
 
-
-## Untested Features
-
-The following new SDK features have not been tested for Cordova plugin compatibility.
-
-* Secure Form
-
-## General Limitations / Unsupported Features
-
-* Fragment mode on Android
-* ViewController mode on iOS
-
-In both of the above cases these **might** be solvable with more iOS/Android expertise but this has not been achieved yet with the current plugin.
-
-**Attempt to integrate the SDK in these modes at your own risk**
-
-* Branding
-
-Customisations of both SDKs in terms of look and feel can still be achieved through editing the related native class files on iOS/Android - **but support for such config changes via a web layer across platforms is NOT in scope/available**
-
-* Callbacks / Event Limitations
-
-Whilst we support and expose a number of delegate callbacks and events to the web layer (see API reference section below), these are not 1:1 parity across both platforms due to differences in the SDK and platforms they run on. Please check the documentation below to understand which events apply to each platform.
-
-Requiring additional brand specific events will require you to modify the code and classes as you see fit.
-
-### PLEASE NOTE -- XCODE UPGRADE REQUIRED!!
-
-+ iOS SDK v2.9.x requires XCODE v9.1 and above to use Swift 4.0
-  + You will need macOS Sierra in order to install this.
-
-
 # Installing / Getting started
 
 ### _"Where do I find the latest version of the plugin?"_
