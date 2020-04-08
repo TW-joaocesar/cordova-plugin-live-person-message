@@ -1,0 +1,52 @@
+{
+  "_from": "git+https://github.com/TruewindIT/cordova-plugin-live-person-message.git",
+  "_id": "cordova-plugin-live-person-message@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-live-person-message",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/TruewindIT/cordova-plugin-live-person-message.git",
+    "rawSpec": "https://github.com/TruewindIT/cordova-plugin-live-person-message.git",
+    "saveSpec": "git+https://github.com/TruewindIT/cordova-plugin-live-person-message.git",
+    "fetchSpec": "https://github.com/TruewindIT/cordova-plugin-live-person-message.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/TruewindIT/cordova-plugin-live-person-message.git#e3b541cb2d5acdb7bb55cfe2822ec4eae45207af",
+  "_spec": "https://github.com/TruewindIT/cordova-plugin-live-person-message.git",
+  "_where": "/Users/jpcesar 1/Desktop/LivePerson/liveperson",
+  "author": {
+    "name": "goncalo.ferraria@truewindglobal.com"
+  },
+  "bugs": {
+    "url": "https://github.com/TruewindIT/cordova-plugin-live-person-message/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.liveperson.messagingSDK",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova LivePerson Messaging Plugin",
+  "homepage": "https://github.com/TruewindIT/cordova-plugin-live-person-message#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-live-person-message",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TruewindIT/cordova-plugin-live-person-message.git"
+  },
+  "version": "1.0.0"
+}
