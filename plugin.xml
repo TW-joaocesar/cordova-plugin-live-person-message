@@ -51,6 +51,7 @@
 		<framework src="src/ios/frameworks/LPInfra.framework" custom="true" />
 		<framework src="src/ios/frameworks/LPMessagingSDK.framework" custom="true" />
 		<framework src="src/ios/frameworks/LPAMS.framework" custom="true" />
+		<framework src="src/ios/frameworks/LPMonitoring.framework" custom="true" />
 		<resource-file src="src/ios/frameworks/LPMessagingSDKModels.bundle" custom="true"/>
 		<source-file src="src/ios/LPMessagingSDKPlugin.swift" />
 		<source-file src="src/ios/LPSDKCordovaSample-Bridging-Header.h" />
