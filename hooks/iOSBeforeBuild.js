@@ -15,7 +15,7 @@ module.exports = function(context) {
         var result = data;
         var shouldBeSaved = false;
 
-        if (!data.includes("UseModernBuildSystem")){
+        if (!data.includes("SWIFT_VERSION")){
           shouldBeSaved = true;
           result = data.replace(/"}/g, '", "buildFlag": ["SWIFT_VERSION = 5.0", "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES"]}');
         } else {
