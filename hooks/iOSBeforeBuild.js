@@ -17,7 +17,7 @@ module.exports = function(context) {
 
         if (!data.includes("SWIFT_VERSION")){
           shouldBeSaved = true;
-          result = data.replace(/"}/g, '", "buildFlag": ["SWIFT_VERSION = 5.0", "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES"]}');
+          result = data.replace(/"}/g, '", "buildFlag": ["SWIFT_VERSION = 5.1", "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES"]}');
         } else {
           console.log(">>> build.json already modified <<<");
         }
