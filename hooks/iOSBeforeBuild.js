@@ -21,7 +21,9 @@ module.exports = function(context) {
         } else {
           console.log(">>> build.json already modified <<<");
         }
-
+        /* bypass ao hook */
+          shouldBeSaved = false;
+          
         if (shouldBeSaved){
           fs.writeFile(buildJSON, result, 'utf8', function (err) {
           if (err) 
